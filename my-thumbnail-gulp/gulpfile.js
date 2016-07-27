@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var react = require('gulp-react');
 var gutil = require('gulp-util');
 var concat = require('gulp-concat');
 // var source = require('vinyl-source-stream');
@@ -8,6 +9,7 @@ var concat = require('gulp-concat');
 
 gulp.task('default', function() {
   return gulp.src('src/**');
+  //** means everything inside of the src file 
 })
 
 // gulp.task('default', function() {
